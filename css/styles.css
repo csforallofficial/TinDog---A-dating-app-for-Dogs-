@@ -1,0 +1,91 @@
+#title{
+  background-color: #ff4c68;
+}
+
+h1{
+  color: white;
+}
+.btn{
+  font-family: 'Ubuntu';
+}
+.nav-item{
+  padding: 0 1.125rem;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat-Light';
+}
+.download-apple{
+  margin: 5% 3% 3% 0;
+}
+.download-google{
+  margin: 5% 3% 3% 0;
+}
+.tindog-img{
+  transform: rotate(25deg);
+  position: absolute;
+}
+.fab{
+  padding-right:5px;
+}
+.center{
+  text-align: center;
+}
+.icon-color{
+  color: #ef8172;
+  font-size: 70px;
+  padding-top: 110px;
+}
+p{
+  color: #8f8f8f;
+}
+.icon-color:hover{
+  color: #ff4c68;
+}
+#testimonials{
+  text-align : center;
+  background-color: #ef8172;
+  color: white;
+}
+.testimonial-image{
+  width:10%;
+  border-radius: 50%;
+  margin: 20px;
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin:20px 20px 15px;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+#pricing{
+  padding: 100px;
+}
+
+@media (max-width: 1028px){
+  #title{
+    text-align: center;
+  }
+
+  .tindog-img{
+    position: static !important;
+    transform: rotate(0);
+    width: 70% !important;
+  }
+}
+
+#cta{
+  text-align: center;
+  background-color: #ff4c68;
+}
+
+#footer{
+  text-align: center;
+}
